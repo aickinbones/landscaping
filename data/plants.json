@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "pohutukawa", "CommonName": "Pōhutukawa", "MaoriName": "Pōhutukawa", "BotanicalName": "Metrosideros excelsa",
+    "Form": "Tree", "Evergreen": true,
+    "MatureHeightM": 12, "MatureSpreadM": 12,
+    "Height0M": 0.5, "Spread0M": 0.3, "Height5yM": 2.5, "Spread5yM": 1.5, "Height20yM": 8, "Spread20yM": 7,
+    "GrowthRate": "Medium", "Sun": "Full", "Moisture": "Moderate",
+    "FrostTolerance": "Moderate", "WindTolerance": "Hardy", "SaltTolerance": "Hardy",
+    "Notes": "Coastal tree, red summer flowers. Frost tender when young. Large root system.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "kowhai", "CommonName": "Kōwhai", "MaoriName": "Kōwhai", "BotanicalName": "Sophora microphylla",
+    "Form": "Tree", "Evergreen": true,
+    "MatureHeightM": 8, "MatureSpreadM": 5,
+    "Height0M": 0.5, "Spread0M": 0.3, "Height5yM": 3, "Spread5yM": 1.5, "Height20yM": 7, "Spread20yM": 4,
+    "GrowthRate": "Medium", "Sun": "Full", "Moisture": "Moderate",
+    "FrostTolerance": "Hardy", "WindTolerance": "Moderate", "SaltTolerance": "Moderate",
+    "Notes": "Yellow spring flowers attract tūī and bellbird.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "ponga", "CommonName": "Silver fern", "MaoriName": "Ponga", "BotanicalName": "Cyathea dealbata",
+    "Form": "TreeFern", "Evergreen": true,
+    "MatureHeightM": 8, "MatureSpreadM": 4,
+    "Height0M": 0.4, "Spread0M": 0.5, "Height5yM": 1, "Spread5yM": 1.5, "Height20yM": 3.5, "Spread20yM": 3,
+    "GrowthRate": "Slow", "Sun": "Partial", "Moisture": "Moderate",
+    "FrostTolerance": "Moderate", "WindTolerance": "Moderate", "SaltTolerance": "Tender",
+    "Notes": "Silver underside of fronds. Prefers shelter and moist soil.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "harakeke", "CommonName": "Flax", "MaoriName": "Harakeke", "BotanicalName": "Phormium tenax",
+    "Form": "Flax", "Evergreen": true,
+    "MatureHeightM": 3, "MatureSpreadM": 2.5,
+    "Height0M": 0.4, "Spread0M": 0.3, "Height5yM": 1.8, "Spread5yM": 1.5, "Height20yM": 3, "Spread20yM": 2.5,
+    "GrowthRate": "Fast", "Sun": "Full", "Moisture": "Wet",
+    "FrostTolerance": "Hardy", "WindTolerance": "Hardy", "SaltTolerance": "Hardy",
+    "Notes": "Tolerates wet ground and coastal conditions. Important weaving plant.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "manuka", "CommonName": "Mānuka", "MaoriName": "Mānuka", "BotanicalName": "Leptospermum scoparium",
+    "Form": "Shrub", "Evergreen": true,
+    "MatureHeightM": 4, "MatureSpreadM": 3,
+    "Height0M": 0.4, "Spread0M": 0.2, "Height5yM": 2.5, "Spread5yM": 1.5, "Height20yM": 4, "Spread20yM": 3,
+    "GrowthRate": "Fast", "Sun": "Full", "Moisture": "Moderate",
+    "FrostTolerance": "Hardy", "WindTolerance": "Hardy", "SaltTolerance": "Hardy",
+    "Notes": "Good nurse plant for regenerating bush. White flowers in spring.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "karamu", "CommonName": "Karamū", "MaoriName": "Karamū", "BotanicalName": "Coprosma robusta",
+    "Form": "Shrub", "Evergreen": true,
+    "MatureHeightM": 4, "MatureSpreadM": 3,
+    "Height0M": 0.4, "Spread0M": 0.3, "Height5yM": 2.5, "Spread5yM": 2, "Height20yM": 4, "Spread20yM": 3,
+    "GrowthRate": "Fast", "Sun": "Partial", "Moisture": "Moderate",
+    "FrostTolerance": "Moderate", "WindTolerance": "Hardy", "SaltTolerance": "Moderate",
+    "Notes": "Glossy leaves and orange berries that attract birds.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "rengarenga", "CommonName": "Rengarenga lily", "MaoriName": "Rengarenga", "BotanicalName": "Arthropodium cirratum",
+    "Form": "Perennial", "Evergreen": true,
+    "MatureHeightM": 0.6, "MatureSpreadM": 0.8,
+    "Height0M": 0.2, "Spread0M": 0.2, "Height5yM": 0.6, "Spread5yM": 0.8, "Height20yM": 0.6, "Spread20yM": 0.8,
+    "GrowthRate": "Medium", "Sun": "Partial", "Moisture": "Moderate",
+    "FrostTolerance": "Moderate", "WindTolerance": "Moderate", "SaltTolerance": "Hardy",
+    "Notes": "White flower sprays in spring. Good under trees. Frost can damage foliage.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "toetoe", "CommonName": "Toetoe", "MaoriName": "Toetoe", "BotanicalName": "Austroderia fulvida",
+    "Form": "Tussock", "Evergreen": true,
+    "MatureHeightM": 2.5, "MatureSpreadM": 2,
+    "Height0M": 0.4, "Spread0M": 0.3, "Height5yM": 2, "Spread5yM": 1.5, "Height20yM": 2.5, "Spread20yM": 2,
+    "GrowthRate": "Fast", "Sun": "Full", "Moisture": "Wet",
+    "FrostTolerance": "Hardy", "WindTolerance": "Hardy", "SaltTolerance": "Hardy",
+    "Notes": "Tall plumes in summer. Tolerates wet ground. Species vary; confirm which toetoe suits the site.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "kawakawa", "CommonName": "Kawakawa", "MaoriName": "Kawakawa", "BotanicalName": "Piper excelsum",
+    "Form": "Shrub", "Evergreen": true,
+    "MatureHeightM": 4, "MatureSpreadM": 3,
+    "Height0M": 0.3, "Spread0M": 0.3, "Height5yM": 1.5, "Spread5yM": 1.5, "Height20yM": 3.5, "Spread20yM": 3,
+    "GrowthRate": "Medium", "Sun": "Shade", "Moisture": "Moderate",
+    "FrostTolerance": "Tender", "WindTolerance": "Tender", "SaltTolerance": "Moderate",
+    "Notes": "Heart-shaped leaves, often insect-nibbled. Needs shelter. Used in rongoā.",
+    "Source": "", "DataQuality": "draft"
+  },
+  {
+    "Name": "hebe_speciosa", "CommonName": "Napuka / Titirangi", "MaoriName": "Taranga", "BotanicalName": "Hebe speciosa",
+    "Form": "Shrub", "Evergreen": true,
+    "MatureHeightM": 1.5, "MatureSpreadM": 1.5,
+    "Height0M": 0.3, "Spread0M": 0.3, "Height5yM": 1.2, "Spread5yM": 1.2, "Height20yM": 1.5, "Spread20yM": 1.5,
+    "GrowthRate": "Fast", "Sun": "Full", "Moisture": "Moderate",
+    "FrostTolerance": "Tender", "WindTolerance": "Hardy", "SaltTolerance": "Hardy",
+    "Notes": "Glossy leaves and purple-magenta flower spikes. Tender to heavy frost. Hebe is now often placed in Veronica; check name and Māori name before verifying.",
+    "Source": "", "DataQuality": "draft"
+  }
+]

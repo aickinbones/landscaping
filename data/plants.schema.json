@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NZ plant library",
+  "description": "Array of plant rows. Flat, PascalCase fields with a unique 'Name' row key, so the file can be imported directly as an Unreal Data Table.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "Name", "CommonName", "BotanicalName", "Form", "Evergreen",
+      "MatureHeightM", "MatureSpreadM",
+      "Height0M", "Spread0M", "Height5yM", "Spread5yM", "Height20yM", "Spread20yM",
+      "GrowthRate", "Sun", "Moisture", "FrostTolerance", "WindTolerance", "SaltTolerance",
+      "DataQuality"
+    ],
+    "properties": {
+      "Name": { "type": "string", "pattern": "^[a-z0-9_]+$", "description": "Unique row key (lowercase slug, e.g. 'pohutukawa'). Required by Unreal's Data Table import." },
+      "CommonName": { "type": "string" },
+      "MaoriName": { "type": "string", "description": "Te reo Māori name with macrons. Empty if none." },
+      "BotanicalName": { "type": "string" },
+      "Form": { "enum": ["Tree", "TreeFern", "Shrub", "Flax", "Tussock", "Groundcover", "Climber", "Perennial"], "description": "Drives which mesh/foliage template is used." },
+      "Evergreen": { "type": "boolean" },
+
+      "MatureHeightM": { "type": "number", "exclusiveMinimum": 0 },
+      "MatureSpreadM": { "type": "number", "exclusiveMinimum": 0 },
+
+      "Height0M": { "type": "number", "exclusiveMinimum": 0, "description": "Size at planting (typical nursery grade)." },
+      "Spread0M": { "type": "number", "exclusiveMinimum": 0 },
+      "Height5yM": { "type": "number", "exclusiveMinimum": 0, "description": "Size 5 years after planting. Drives the growth slider." },
+      "Spread5yM": { "type": "number", "exclusiveMinimum": 0 },
+      "Height20yM": { "type": "number", "exclusiveMinimum": 0, "description": "Size 20 years after planting." },
+      "Spread20yM": { "type": "number", "exclusiveMinimum": 0 },
+
+      "GrowthRate": { "enum": ["Slow", "Medium", "Fast"] },
+      "Sun": { "enum": ["Full", "Partial", "Shade"], "description": "Preferred light." },
+      "Moisture": { "enum": ["Dry", "Moderate", "Wet"], "description": "Preferred soil moisture." },
+      "FrostTolerance": { "enum": ["Tender", "Moderate", "Hardy"] },
+      "WindTolerance": { "enum": ["Tender", "Moderate", "Hardy"] },
+      "SaltTolerance": { "enum": ["Tender", "Moderate", "Hardy"] },
+
+      "Notes": { "type": "string" },
+      "Source": { "type": "string", "description": "Where the data came from (e.g. NZ Flora, NZPCN URL)." },
+      "DataQuality": { "enum": ["draft", "verified"], "description": "'draft' = entered from general knowledge, not yet checked against NZ Flora / NZPCN." }
+    }
+  }
+}
